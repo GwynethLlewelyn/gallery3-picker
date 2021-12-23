@@ -3,7 +3,7 @@ Contributors: andsten
 Tags: gallery3, photos, photo, media, image, images, gallery
 Requires at least: 2.8
 Tested up to: 3.0.3
-Stable tag: 0.9.5
+Stable tag: 0.9.6
 
 Adds a media picker pane allowing access to media from a Gallery3 installation.
 
@@ -31,9 +31,9 @@ Bits missing before this is release 1.0 worthy:
 heiv gallery 3:
 * Image picker
 * No WP media library integration.
-* Allows for embeddable carousels. 
+* Allows for embeddable carousels.
 * Requires visual editor mode in order to invoke it.
-* Fairly slow navigation - will query new parts of the folder structure every time you enter a new album and images are paged. 
+* Fairly slow navigation - will query new parts of the folder structure every time you enter a new album and images are paged.
 * Plug specific markup.
 
 GWPG3:
@@ -41,11 +41,11 @@ GWPG3:
 * For now, no image picker.
 * Plug specific markup.
 
-Gallery3 Picker: 
+Gallery3 Picker:
 * Image picker.
 * Media library integration.
 * Fast navigation, progressive thumbnail loading.
-* Anything you can do with images in the media library is (naturally) possible, including the default resizing and positioning controls. 
+* Anything you can do with images in the media library is (naturally) possible, including the default resizing and positioning controls.
 * Images are served out of WordPress or linked directly from Gallery3.
 * Proper support for private albums.
 * No plug specific markup (if you grow tired of the plugin, remove it and images in old posts/pages will still work).
@@ -58,7 +58,11 @@ Gallery3 Picker:
 
 == Changelog ==
 
-= 0.9.5 =
+= 0.9.6 =
+* Overall refactoring according to the WordPress Coding Standards (gwynethllewelyn 20211222)
+* Attempt to get this working under PHP 8.1 (gwynethllewelyn 20211222)
+
+= 0.9.6 =
 * Support for the upcoming Gallery3 3.0.1 rest/tree interface, allowing much quicker album tree and photo list loading.
 * Cleanups in the settings interface, mainly under the hood.
 
